@@ -1,2 +1,2 @@
 # py-calculator
- My first Project 
+ My first Project in Python !
