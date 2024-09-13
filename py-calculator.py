@@ -50,11 +50,11 @@ while True:
         break
 
     print("\nDo you want to perform another operation? (1. Yes or 2. No)")
-    next = int(input("\nEnter a choice code:- "))
+    next = input("\nEnter a choice code:- ").lower()
 
-    if next == 1:
+    if next == '1' or next == 'yes':
         print("\nOk! Let's start it again.")
         continue  
-    elif next == 2:
+    elif next == '2' or next == 'no':
         print("\nGoodbye!")
         break  
