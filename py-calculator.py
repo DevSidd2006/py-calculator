@@ -50,6 +50,9 @@ while True:
         break
 
     print("\nDo you want to perform another operation? (1. Yes or 2. No)")
+
+    #lower() converts the input to lowercase
+
     next = input("\nEnter a choice code:- ").lower()
 
     if next == '1' or next == 'yes':
